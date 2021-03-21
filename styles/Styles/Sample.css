@@ -1,0 +1,111 @@
+/* CSS Selectors (ELEMENT)*/
+/*page body background colour and margins*/
+body{
+    background-color:rebeccapurple;
+    margin-left: 5%;
+    margin-right: 5%;  
+    font-size: 10px;
+    background:med
+}
+/*heading styles grouped h1 h2 h3*/
+h1,h2,h3{
+    color: black;
+    font-family: verdana;
+    text-align: center; 
+}
+/*Css selectors(10)*/
+/*paragraph style using 10*/
+#maintext
+{
+    color: black;
+    font-family: arial;
+    text-align: justify; 
+    
+}
+/* Image style using class*/
+.fullWidthContent{
+    width:1%
+    color: black;
+}
+/* style the anchor element*/
+a{
+    font-size:20px;
+    color:#ff8b04;
+}
+.anchorLarge{
+    color: #ff8b04;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration:underline;
+    text-align:right
+}
+#background.opacity{
+    background-image: url(Untitled-1.jpg)
+        colour:red;
+    height: 200;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+p{
+    font-family: cursive;
+    font-size: 15px;
+}
+footer{
+    font-family: cursive;
+    font-size:25px;
+    text-align: center;    
+}
+.topnav{ 
+float: right;
+    overflow: hidden;
+}
+
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border border-radius: 50%;   
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background:#3b5998;
+    color: white;
+}
+.fa-twitter{
+    background:#55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background:#125688;
+    color: white
+}
+.fa-google{
+    background:#dd4b39;
+    color: white;
+}
+.fa-youtube{
+    background:#bb0000;
+    color: white
+}
+* {
+  box-sizing: border
+}
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#container{
+    text-align-last:center;
+}
+#displaycontainer{
+    text-align: right;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--The following lines are comments
+    Author: Kieran Boyle
+    Date Created: 05/03/2021
+    Page Descripton: Home Page of  Project Website-->
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8"/> <!-- 8 bit character encoding capable of encoding all possible-->
+    <meta name="Description" content="Kitchen Connoisseur">
+    <meta name= keywords content="kitchen,cooking,recipes,chef,food,">
+    
+    <link rel="stylesheet" type="text/css" href= "styles/Styles/Sample.css">
+</head>
+   <body><!-- body stage start of body section display on screen-->
+<header> 
+          
+<img style="float:left; margin-right: 10px;"src="images/logo.png" alt="logo" width=400>
+           
+<div class="topnav">
+<a class="active" href="#home"></a>
+<input type="text" placeholder="Search for recipe">
+ </div>       
+ <nav> 
+
+<a class="anchorLarge" href="Breakfast.html">Breakfast</a><a class="anchorLarge"> Lunch</a><a class="anchorLarge">Dinner</a>
+<a class="anchorLarge" href="Desserts">Desserts</a>
+<a class="anchorLarge" href="Blog.html">Blog</a>        
+ </nav>
+ </header>
+ <h1> About</h1>
+ <p>Welcome to Kitchen Connoisseur a website i have created just to share some recipes from one of my favourite pastimes cooking and baking. Some of the photos and recipes on the site are my own others are not, anything i have borrowed i have referenced with a link to the original source. i hope you enjoy the website</p>
+       
+<div class="w3-container">
+  <h2>Some of my own cooking</h2>
+</div>
+
+<div class="display-container">
+
+<div class="w3-display-container mySlides">
+  <img src= "Food/20210109_184406.jpg" style="width:40%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    
+</div>
+</div>
+ 
+<div class="w3-display-container mySlides">
+  <img src=  "Food/20200613_190059.jpg" style="width:40%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src= "Food/20200621_171902.jpg" style="width:40%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    
+</div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Food/20200617_220642.jpg" style="width:40%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    
+</div>
+</div>
+
+<div class="display-container mySlides">
+  <img src= "Food/20200610_191033.jpg" style="width:40%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+   
+  </div>
+</div>
+
+<div id="container">
+<button type="button" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+</div>
+ 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display ="block";  
+}
+</script>
+   
+<main> 
+</main>
+ <footer> &#169; Kitchen Connoisseur 2021 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><a href="#" class=" fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-instagram"></a>  <a href="#" class="fa fa-google"></a> <a href="#" class="fa fa-youtube"></a>  </footer>
+   </body>
+   </html>
