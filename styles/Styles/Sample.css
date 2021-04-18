@@ -1,17 +1,39 @@
 /* CSS Selectors (ELEMENT)*/
 /*page body background colour and margins*/
+
+
 body{
     background-color:rebeccapurple;
     margin-left: 5%;
     margin-right: 5%;  
-    font-size: 10px;
-    background:med
+    max-width: 80%;
+    height: 100%;
+ 
+}
+h1{
+    padding: 1em;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px
+
 }
 /*heading styles grouped h1 h2 h3*/
-h1,h2,h3{
+h2{
+    font-family: cursive;
+    text-align:justify;
+    text-decoration: underline;
+}
+
+
+
+h3{
     color: black;
-    font-family: verdana;
-    text-align: center; 
+    font-family: cursive;
+    text-align:center; 
+    padding: 2px;
+    padding-top: 1px;
+    text-decoration: underline;
+
 }
 /*Css selectors(10)*/
 /*paragraph style using 10*/
@@ -20,11 +42,11 @@ h1,h2,h3{
     color: black;
     font-family: arial;
     text-align: justify; 
-    
+ 
 }
 /* Image style using class*/
 .fullWidthContent{
-    width:1%
+    width:1%;
     color: black;
 }
 /* style the anchor element*/
@@ -39,38 +61,35 @@ a{
     text-decoration:underline;
     text-align:right
 }
-#background.opacity{
-    background-image: url(Untitled-1.jpg)
-        colour:red;
-    height: 200;
-}
+
 h1{
+    font-family: cursive;
     text-align: center;
     text-decoration:underline;
 }
 p{
     font-family: cursive;
-    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    
+ 
 }
 footer{
     font-family: cursive;
-    font-size:25px;
-    text-align: center;    
+    font-size: 30px;
+    text-align: center; 
+    max-width: 80%;
 }
 .topnav{ 
-float: right;
+float:right;
     overflow: hidden;
+    margin-left: 1em
+}
+nav{
+    padding: 10px;
+    
 }
 
-}
-.fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border border-radius: 50%;   
-}
 .fa:hover{
     opacity: 0.7;
 }
@@ -94,18 +113,96 @@ float: right;
     background:#bb0000;
     color: white
 }
-* {
-  box-sizing: border
-}
-  opacity: 0.6;
-}
-.active,
-.demo:hover {
-  opacity: 1;
-}
+
+
+
 #container{
     text-align-last:center;
+    max-width: 80%;
+    
 }
+
+
 #displaycontainer{
-    text-align: right;
+     
 }
+
+aside{
+    float: right;
+    width:25%;
+    border-color: chartreuse;
+    padding: 2em;
+    padding-right: 2em;
+
+}
+
+
+
+  li {
+    font-family: cursive;
+    float:left;
+      padding: 1px;
+     
+}
+ul li{
+    
+    padding-right: 1.9em;
+    list-style-type:square;
+    padding-left: 1.9em
+    
+
+}
+
+.col_blog{
+    column-count: 4;
+column-rule: 2px solid white;
+    
+}   
+   
+
+form {
+   background-image: url(social-media-twitter-google-plus.jpg);
+    background-repeat:repeat;
+    background-size: 46%;
+    font-family: cursive;
+    
+
+}
+
+
+
+
+li{ padding-right: 2px;
+}
+
+table{
+     width: 80%;
+    font-size: 20px;
+    text-align:center;
+
+
+}
+table,th,td{
+    border:solid black;
+    border-style:ridge;
+        
+}
+
+h4 {
+    color: #ff8b04;
+    text-decoration: underline;
+}
+
+td {
+    color: #ff8b04;
+}
+
+th {
+    color: #ff8b04;
+}
+article{
+    font-family: cursive;
+}
+
+
+
