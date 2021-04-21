@@ -1,3 +1,4 @@
+
 /* CSS Selectors (ELEMENT)*/
 /*page body background colour and margins*/
 
@@ -206,3 +207,213 @@ article{
 
 
 
+=======
+/* CSS Selectors (ELEMENT)*/
+/*page body background colour and margins*/
+
+
+body{
+    background-color:rebeccapurple;
+    margin-left: 5%;
+    margin-right: 5%;  
+    max-width: 80%;
+    height: 100%;
+ 
+}
+h1{
+    padding: 1em;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px
+
+}
+/*heading styles grouped h1 h2 h3*/
+h2{
+    font-family: cursive;
+    text-align:justify;
+    text-decoration: underline;
+}
+
+
+
+h3{
+    color: black;
+    font-family: cursive;
+    text-align:center; 
+    padding: 2px;
+    padding-top: 1px;
+    text-decoration: underline;
+
+}
+/*Css selectors(10)*/
+/*paragraph style using 10*/
+#maintext
+{
+    color: black;
+    font-family: arial;
+    text-align: justify; 
+ 
+}
+/* Image style using class*/
+.fullWidthContent{
+    width:1%;
+    color: black;
+}
+/* style the anchor element*/
+a{
+    font-size:20px;
+    color:#ff8b04;
+}
+.anchorLarge{
+    color: #ff8b04;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration:underline;
+    text-align:right
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline;
+}
+p{
+    font-family: cursive;
+    text-align: justify;
+    width: 90%;
+    
+ 
+}
+footer{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center; 
+    max-width: 80%;
+}
+.topnav{ 
+float:right;
+    overflow: hidden;
+    margin-left: 1em
+}
+nav{
+    padding: 10px;
+    
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background:#3b5998;
+    color: white;
+}
+.fa-twitter{
+    background:#55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background:#125688;
+    color: white
+}
+.fa-google{
+    background:#dd4b39;
+    color: white;
+}
+.fa-youtube{
+    background:#bb0000;
+    color: white
+}
+
+
+
+#container{
+    text-align-last:center;
+    max-width: 80%;
+    
+}
+
+
+#displaycontainer{
+     
+}
+
+aside{
+    float: right;
+    width:25%;
+    border-color: chartreuse;
+    padding: 2em;
+    padding-right: 2em;
+
+}
+
+
+
+  li {
+    font-family: cursive;
+    float:left;
+      padding: 1px;
+     
+}
+ul li{
+    
+    padding-right: 1.9em;
+    list-style-type:square;
+    padding-left: 1.9em
+    
+
+}
+
+.col_blog{
+    column-count: 4;
+column-rule: 2px solid white;
+    
+}   
+   
+
+form {
+   background-image: url(social-media-twitter-google-plus.jpg);
+    background-repeat:repeat;
+    background-size: 46%;
+    font-family: cursive;
+    
+
+}
+
+
+
+
+li{ padding-right: 2px;
+}
+
+table{
+     width: 80%;
+    font-size: 20px;
+    text-align:center;
+
+
+}
+table,th,td{
+    border:solid black;
+    border-style:ridge;
+        
+}
+
+h4 {
+    color: #ff8b04;
+    text-decoration: underline;
+}
+
+td {
+    color: #ff8b04;
+}
+
+th {
+    color: #ff8b04;
+}
+article{
+    font-family: cursive;
+}
+
+
+
+>>>>>>> 2fbdf6a898f388ae7f63349cff03e110bacb9897
